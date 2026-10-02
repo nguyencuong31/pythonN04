@@ -1,0 +1,2 @@
+s = int(input("Nhap tong so giay: "))
+print(s // 3600 ,(s % 3600) // 60 , s % 60 , sep=":")
