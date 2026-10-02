@@ -1,0 +1,8 @@
+a=int(input())
+b=int(input())
+c=float(input())
+d=float(input())
+tien_phai_tra=(a*b)
+tien_sau_giam_gia=(tien_phai_tra*(1-c/100))
+tien_sau_VAT=(tien_sau_giam_gia*(1+d/100))
+print("Thanh toán:",int(tien_sau_VAT))
