@@ -7,7 +7,7 @@ elif a - b == n:
     print("-")
 elif a * b == n:
     print("*")
-elif a / b == n:
+elif a / b == n and b != 0:
     print("/")
 else:
     print("Sai")
